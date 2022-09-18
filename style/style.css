@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Open+Sans&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+	background-color:white;
+}
+
+nav{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+
+nav h1{
+    color : #717171;
+    font-family: "Ms Madi", sans-serif;
+    font-size: 30px;
+}
+
+nav .onglets{
+    margin-top:3px;
+    margin-left: 300px;
+}
+
+nav .onglets a{
+    text-decoration : none;
+    color: #000;
+    margin-right:10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+
+nav .onglets a:hover{
+    color:rgb(116, 116, 116);
+    border-bottom: 1px solid rgb(116, 116, 116);
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    background: url(../images/pain.jpg);
+    background-size:cover;
+    color: white;
+    padding:40px;
+	border-bottom: 5px solid #6f6f6f;
+}
+
+header h1{
+    font-family:"Ms Madi",sans-serif;
+    font-size: 50px;
+    padding-top: 60px;
+
+}
+
+header.contact h4{
+    font-family:"Open sans",sans-serif;
+    font-size: 35px;
+	margin-bottom:-20px
+
+}
+
+header.contact h4.last{
+    margin-bottom:180px
+
+}
+
+header.contact h4.first{
+    margin-top:128px
+
+}
+
+div#content-home header h1{
+    font-family:"Ms Madi",sans-serif;
+    font-size: 70px;
+
+}
+
+div#content-home header{
+    text-align: center;
+    background: url(../images/four.jpg);
+    background-size:cover;
+    height: 695px;
+}
+
+footers h1{
+	text-align:center;
+	border-bottom: 5px solid #6f6f6f;
+	font-size: 20px;
+	padding : 20px;
+	margin-top:0px;
+	margin-bottom:0px;
+	color : #717171;
+}
+
+div#product.main div.pain1 .right{
+    flex:0 0 30%;
+    margin-left:500px;
+    color : white;
+    text-align:center;
+
+}
+
+div#product.main div.pain1 .right h1{
+    border-bottom: 1px solid white;
+
+}
+
+div#product.main div.pain1.left{
+    flex:0 0 70%;
+}
+
+div#product.main{
+    display: flex;
+    flex-direction : column;
+    align-items: center; 
+    background:url(../images/plache.jpg);
+    background-size:cover;
+    border-bottom: 5px solid #6f6f6f;
+
+}
+
+div#product.main div.pain1 div.left img{
+    height : 300px;
+    border-radius: 50px
+}
+
+div#product.main div.pain1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom:15px
+}
+
+div#product.main div.pain2 .right{
+    flex:0 0 30%;
+    margin-right:440px;
+    margin-left: -40px; 
+    color : white;
+    text-align:center;
+
+}
+
+div#product.main div.pain2 .right h1{
+    border-bottom: 1px solid white;
+
+}
+
+div#product.main div.pain2.left{
+    flex:0 0 70%;
+
+}
+
+div#product.main{
+    display: flex;
+    flex-direction : column;
+    align-items: center; 
+    background:url(../images/plache.jpg);
+    background-size:cover;
+    border-bottom: 5px solid #6f6f6f;
+    
+
+}
+
+div#product.main div.pain2 div.left img{
+    height : 300px;
+    width : 412.367px;
+    margin-right:-85px;
+    margin-left: 85px;
+    border-radius: 50px
+}
+
+div#product.main div.pain2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom:15px
+}
